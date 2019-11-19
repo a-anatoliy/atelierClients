@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+
+    <!-- Для работы React -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.development.js"></script>
+
+    <!-- Для работы JSX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- Компонент List Item -->
+<script type="text/babel" src="scripts/list-item.jsx">
+    import ListItem
+</script>
+<!-- Компонент List -->
+<script type="text/babel" src="scripts/list.jsx">
+    import List
+</script>
+<!-- Компонент Header -->
+<script type="text/babel" src="scripts/header.jsx">
+    import Header
+</script>
+<!-- Компонент Wrapper -->
+<script type="text/babel" src="scripts/wrapper.jsx">
+    import Wrapper
+</script>
+<!-- React приложение -->
+<script type="text/babel" src="scripts/app.jsx"></script>
+</body>
+</html>
