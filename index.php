@@ -1,6 +1,14 @@
-<!doctype html>
-<html lang="en">
-<head>
+<?php
+session_start();
+define('ROOT_DIR'   , __DIR__ );
+
+require ROOT_DIR . '/bin/starter.php';
+require ROOT_DIR . '/core/visitor_class.php';
+$user = new Visitor();
+$user->countIt();
+
+?>
+<!doctype html><html lang="en"><head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="x-ua-compatible" content="IE=edge,chrome=1" http_equiv="X-UA-Compatible">
@@ -58,7 +66,7 @@
         </div>
       </nav>
     </div>
-    <div class="col-md-2 d-none d-md-block align-middle text-center text-sm-center align-self-center">
+    <div class="col-md-2 d-none d-lg-block align-middle text-center text-sm-center align-self-center">
       <a title="Lucky DRESS EU Web Page" target="_blank" href="https://www.lucky-dress.eu/"><i class="fa fa-globe" aria-hidden="true"></i></a>
       <a title="Lucky DRESS EU on Etsy" target="_blank" href="https://www.etsy.com/shop/AtelierLuckyDress"><i class="fa fa-etsy pl-1" aria-hidden="true"></i></a>
       <a title="Lucky DRESS EU on Facebook" target="_blank" href="https://www.facebook.com/luckydresskrakow/"><i class="fa fa-facebook pl-1" aria-hidden="true"></i></a>
@@ -67,7 +75,7 @@
     </div>
     <div class="col-md-3 col-5 align-middle text-center align-self-center">
       <div class="main-logo">LUCKY DRESS</div>
-      <div class="main-logo-small">atelier</div>
+      <!-- <div class="main-logo-small">atelier</div> -->
     </div>
   </div>
 
