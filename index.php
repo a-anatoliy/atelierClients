@@ -74,7 +74,7 @@ $user->countIt();
       <a title="Lucky DRESS EU on Pinterest" target="_blank" href="https://www.pinterest.com/ldressatelier/"><i class="fa fa-pinterest-p pl-1" aria-hidden="true"></i></i></a>
     </div>
     <div class="col-md-3 col-5 align-middle text-center align-self-center">
-      <div class="main-logo">LUCKY DRESS</div>
+      <div class="main-logo fancy">LUCKY DRESS</div>
       <!-- <div class="main-logo-small">atelier</div> -->
     </div>
   </div>
@@ -152,7 +152,7 @@ $user->countIt();
             </div>
             <div class="text-center"> <a style="text-decoration: underline; font-weight: 700;" target="_blank" href="/i/How-to-take-the-measure.pdf">How to Take Your own Measurements</a> </div>
             <!-- <div><iframe src="/i/How-to-take-the-measure.pdf" style="width:100%; height:300px;"></iframe></div> -->
-            
+
         </div>
     </div>
 
@@ -242,6 +242,7 @@ $user->countIt();
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/jquery.easing.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/app.js"></script>
 
 <script src="/js/some.js"></script>
 

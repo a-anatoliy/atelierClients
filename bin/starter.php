@@ -8,9 +8,12 @@
 
 
 mb_internal_encoding("UTF-8");
-// date_default_timezone_set('CET');
+date_default_timezone_set('CET');
 
 error_reporting(E_ALL);
+ini_set('error_log', __DIR__ . '/log/php-errors.log');
+//error_log('Запись в лог', 0);
+
 //ini_set('display_errors', 0);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
