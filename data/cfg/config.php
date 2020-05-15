@@ -9,7 +9,11 @@ return array(
     'stat' => array(
         'rowsPerPage' => 30,
         'urlPattern'  => '/bin/mr450.php?s56=(:num)'
-    ),
+     ),
+    'clients' => array(
+        131470 => array( 'name'=>'Ehjae', 'email'=>'ehjae@gmail.com', 'secret'=>'2652875' ),
+        133234 => array( 'name'=>'Emilia', 'email'=>'emely@gmail.com', 'secret'=>'2652875' ),
+     ),
     'form' => array(
     'to'   => 'luckydress77@gmail.com',
     'cc'   => 'a3three@gmail.com',
