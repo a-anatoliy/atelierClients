@@ -15,6 +15,7 @@
 .idea
 .idea/*
 
+/data/cfg/rnd_string.*
 
 # OS generated files #
 ######################
